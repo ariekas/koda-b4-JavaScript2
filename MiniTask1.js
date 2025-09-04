@@ -19,3 +19,4 @@ const profile = {
 }
 
 console.log(profile.skills[1])
+// painting
