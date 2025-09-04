@@ -11,7 +11,7 @@ function farenhaid(c) {
 }
 
 const reamur = function(c){
-    const reamurKonvert = (5/4)*c
+    const reamurKonvert = (4/5)*c
     return reamurKonvert
 }
 
@@ -26,4 +26,4 @@ function ouput(c){
     console.log("Hasil konversi Celsius " + c + " ke kelvin adalah:" + kelvin(c))
 }
 
-ouput(5)
+ouput(50)
