@@ -5,18 +5,18 @@
 // celsius ke celvin
 // outpun hasil korversikan kan dengan format yang benar
 
-function fahrenheit(c) {
-    const FahrenheitKonvert = (c * 9/5) + 32 + " fahrenheit,"
+function Fahrenheit(c) {
+    const FahrenheitKonvert = (c * 9/5) + 32 
     return FahrenheitKonvert
 }
 
 const reamur = function(c){
-    const reamurKonvert = (4/5)*c + " reamur,"
+    const reamurKonvert = (4/5)*c 
     return reamurKonvert
 }
 
 const kelvin = (c) => {
-    const kelvinKonvert = c + 273.15 + " kelvin"
+    const kelvinKonvert = c + 273.15
     return kelvinKonvert
 }
 
@@ -26,10 +26,16 @@ const kelvin = (c) => {
 //     console.log("Hasil konversi Celsius " + c + " ke kelvin adalah:" + kelvin(c))
 // }
 
-function out(c, cb1,cb2,cb3){
+function out(c, cb){
    
-    console.log("Celsius "+ c +" Hasil konversinya: " + cb1(c),cb2(c),cb3(c))
+    console.log("Celsius "+ c +" Hasil konversinya: " + cb(c))
     return
 }
 
-out(5, fahrenheit, reamur, kelvin)
+// ouput(50)
+
+
+out(5, Fahrenheit)
+out(5, reamur)
+out(5, kelvin)
+
