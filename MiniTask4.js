@@ -6,17 +6,17 @@
 // outpun hasil korversikan kan dengan format yang benar
 
 function fahrenheit(c) {
-    const FahrenheitKonvert = (c * 9/5) + 32 
+    const FahrenheitKonvert = (c * 9/5) + 32 + " fahrenheit,"
     return FahrenheitKonvert
 }
 
 const reamur = function(c){
-    const reamurKonvert = (4/5)*c 
+    const reamurKonvert = (4/5)*c + " reamur,"
     return reamurKonvert
 }
 
 const kelvin = (c) => {
-    const kelvinKonvert = c + 273.15
+    const kelvinKonvert = c + 273.15 + " kelvin"
     return kelvinKonvert
 }
 
