@@ -1,13 +1,13 @@
 // buatkan fungsi untuk menghitung 
 // 4 fungsi
-// confersi suhu celsius ke farenhaid
+// confersi suhu celsius ke Fahrenheit
 // celsius ke reamur
 // celsius ke celvin
 // outpun hasil korversikan kan dengan format yang benar
 
-function farenhaid(c) {
-    const farenhaidKonvert = (c * 9/5) + 32
-    return farenhaidKonvert
+function Fahrenheit(c) {
+    const FahrenheitKonvert = (c * 9/5) + 32
+    return FahrenheitKonvert
 }
 
 const reamur = function(c){
@@ -21,7 +21,7 @@ const kelvin = (c) => {
 }
 
 function ouput(c){
-    console.log("Hasil konversi Celsius " + c + " ke Fahrenheit adalah:" + farenhaid(c))
+    console.log("Hasil konversi Celsius " + c + " ke Fahrenheit adalah:" + Fahrenheit(c))
     console.log("Hasil konversi Celsius " + c + " ke reamur adalah:"  + reamur(c))
     console.log("Hasil konversi Celsius " + c + " ke kelvin adalah:" + kelvin(c))
 }
