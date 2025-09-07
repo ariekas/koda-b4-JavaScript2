@@ -2,7 +2,7 @@
 
 flowchart TD
 A@{shape: circle, label: "Start"}
-Z@{shape: dbl-circ, label: "Start"}
+Z@{shape: dbl-circ, label: "Stop"}
 
 B@{shape: lean-r, label: "storageProduct = []" }
 C@{shape: lean-r, label: "menuUtama()" }
