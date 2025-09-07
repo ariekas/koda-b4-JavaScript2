@@ -26,11 +26,6 @@ T@{shape: diam, label: "inputFinist"}
 U@{shape: dbl-circ, label: "stop"}
 V@{shape : lean-r, label : "  rl.close();"}
 
-
-
-
-
-
 A--> B
 B---> C
 C --> D
@@ -43,7 +38,7 @@ G -- No --> F
 H --> I
 I --> J
 J --Yes--> K
-J-- No --> I
+J-- No --> M
 K --> L
 L --> M
 M --> N
@@ -51,16 +46,11 @@ N --> O
 O --> P
 P-->Q
 Q--Yes--> R
-Q--No--> P
+Q--No--> T
 R-->S
 S-->T
 T-- No -->U
 T -- Yes -->H 
 V --> U
-
-
-
-
-
 
 ```
